@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OtpView">
+        <attr name="otpLength" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
