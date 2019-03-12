@@ -12,10 +12,22 @@
             android:layout_width="match_parent"
             android:layout_height="36dp"
             android:id="@+id/otpView"
-            app:otpLength="5"
+            app:otpLength="4"
+            android:text=""
+            android:inputType="number"
+            android:digits="1234567890"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
+
+  <!--  <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintLeft_toLeftOf="parent"
+              android:cursorVisible="true"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+    />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
